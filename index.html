@@ -6,57 +6,75 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
+      background: linear-gradient(to right, #c2e9fb, #a1c4fd);
+      margin: 0;
       padding: 20px;
     }
-    h1 {
-      color: darkblue;
+    header {
+      text-align: center;
+      padding: 30px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
     }
-    .place {
-      background-color: white;
-      padding: 10px;
-      margin-bottom: 15px;
-      border-left: 4px solid darkblue;
+    h1 {
+      color: #2c3e50;
+    }
+    .intro {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #ffffffcc;
+      border-left: 5px solid #3498db;
+      border-radius: 5px;
+    }
+    .wonder {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: #fefefe;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .wonder img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    .wonder h2 {
+      color: #2980b9;
+      margin-top: 10px;
+    }
+    .wonder p {
+      font-size: 16px;
+      color: #333;
     }
   </style>
 </head>
 <body>
-  <h1>7 чудес України</h1>
-  <p>Цей сайт розповідає про сім історичних чудес України — найвизначніші памʼятки нашої культури та архітектури.</p>
 
-  <div class="place">
-    <h2>1. Кам'янець-Подільська фортеця</h2>
-    <p>Середньовічна фортеця, розташована в Кам'янці-Подільському, є одним із символів української оборонної архітектури.</p>
+  <header>
+    <h1>7 чудес України</h1>
+  </header>
+
+  <div class="intro">
+    <p>На цьому сайті ви знайдете інформацію про сім історичних чудес України — найвизначніші архітектурні та культурні пам'ятки нашої держави.</p>
   </div>
 
-  <div class="place">
-    <h2>2. Києво-Печерська лавра</h2>
-    <p>Один з найдавніших православних монастирів, заснований у XI столітті в Києві.</p>
+  <div class="wonder">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Saint_Sophia_Cathedral_in_Kyiv.jpg" alt="Софійський собор">
+    <h2>Софійський собор у Києві</h2>
+    <p>Одна з найдавніших і найвеличніших християнських святинь України, побудована у XI столітті.</p>
   </div>
 
-  <div class="place">
-    <h2>3. Софійський собор у Києві</h2>
-    <p>Величний храм, внесений до списку спадщини ЮНЕСКО, з унікальними фресками та мозаїками XI століття.</p>
+  <div class="wonder">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Kamianets-Podilskyi_Castle_panorama.jpg" alt="Кам'янець-Подільська фортеця">
+    <h2>Кам'янець-Подільська фортеця</h2>
+    <p>Середньовічна фортеця на скелястому острові річки Смотрич — одна з найвідоміших архітектурних пам'яток України.</p>
   </div>
 
-  <div class="place">
-    <h2>4. Херсонес Таврійський</h2>
-    <p>Стародавнє грецьке місто-держава, що знаходиться в Севастополі.</p>
-  </div>
+  
 
-  <div class="place">
-    <h2>5. Хотинська фортеця</h2>
-    <p>Могутня фортеця на березі Дністра, яка була важливим оборонним пунктом у різні епохи.</p>
-  </div>
-
-  <div class="place">
-    <h2>6. Собор святого Юра у Львові</h2>
-    <p>Бароковий собор XVIII століття, духовний центр українських греко-католиків.</p>
-  </div>
-
-  <div class="place">
-    <h2>7. Заповідник "Хортиця"</h2>
-    <p>Острів на Дніпрі, пов’язаний із Запорозькою Січчю, символ козацької доблесті.</p>
-  </div>
 </body>
 </html>
